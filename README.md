@@ -6,7 +6,7 @@ go get github.com/go-sql-driver/mysql
 
 Pycharm Preferences/Languages & Frameworks/Go/Go Libraries
 
-Global:
-/usr/local/go
-Priject Libraries
-/Users/joergemacias/Developer/GolangProjects
+Global:  
+/usr/local/go  
+Project Libraries  
+/Users/jorgemacias/Developer/GolangProjects. 
