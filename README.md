@@ -1,7 +1,8 @@
 ## Golang ##
   
-go get github.com/eclipse/paho.mqtt.golang
-go get github.com/go-sql-driver/mysql
+go get github.com/eclipse/paho.mqtt.golang  
+
+go get github.com/go-sql-driver/mysql  
 
 Pycharm Preferences/Languages & Frameworks/Go/Go Libraries
 
