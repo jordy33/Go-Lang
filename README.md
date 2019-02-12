@@ -1,12 +1,31 @@
-## Golang ##
-  
+
+
+### Install Go
+
+Download version 1.9.2
+
+From [[here](https://golang.org/dl/)]
+
+Edit .bash_profile
+```
+export GOPATH=$HOME/Developer/GoglandProjects/export GOPATH=$HOME/Developer/GoglandProjects/
+```
+
+### Install Pycharm 2016.3.3
+```
+Preferences -> Plugins -> Browse Repositories -> Manage repositories and insert https://plugins.jetbrains.com/plugins/alpha/5047 
+which is the plugin behind this repo (maintained by IntelliJ). Install that plugin.
+```
+## If you need to download libraris ##
+```  
 go get github.com/eclipse/paho.mqtt.golang  
 
 go get github.com/go-sql-driver/mysql  
+```
 
 Pycharm Preferences/Languages & Frameworks/Go/Go Libraries
 
-Global:  
+Global:  Go Variale
 /usr/local/go  
-Project Libraries  
+Project Libraries = GOPATH variable
 /Users/jorgemacias/Developer/GolangProjects. 
