@@ -11,7 +11,7 @@ or from [[here](https://golang.org/dl/)]
 
 Edit .bash_profile
 ```
-export GOPATH=$HOME/Developer/GoglandProjects/export GOPATH=$HOME/Developer/GoglandProjects/
+export GOPATH=$HOME/Developer/GoglandProjects
 ```
 
 ### Install Pycharm 2016.3.3
@@ -19,7 +19,7 @@ export GOPATH=$HOME/Developer/GoglandProjects/export GOPATH=$HOME/Developer/Gogl
 Preferences -> Plugins -> Browse Repositories -> Manage repositories and insert https://plugins.jetbrains.com/plugins/alpha/5047 
 which is the plugin behind this repo (maintained by IntelliJ). Install that plugin.
 ```
-## If you need to download libraris ##
+## If you need to download libraries ##
 ```  
 go get github.com/eclipse/paho.mqtt.golang  
 
