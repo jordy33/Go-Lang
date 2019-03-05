@@ -4,6 +4,7 @@
 
 Download version 1.9.2
 ```
+cd /tmp
 wget https://dl.google.com/go/go1.9.2.linux-amd64.tar.gz
 tar -C /usr/local -xzf go1.9.2.linux-amd64.tar.gz 
 ```
@@ -12,6 +13,7 @@ or from [[here](https://golang.org/dl/)]
 Edit .bash_profile
 ```
 export GOPATH=$HOME/Developer/GoglandProjects
+export PATH=$PATH:/usr/local/go/bin
 ```
 
 ### Install Pycharm 2016.3.3
