@@ -3,8 +3,11 @@
 ### Install Go
 
 Download version 1.9.2
-
-From [[here](https://golang.org/dl/)]
+```
+wget https://dl.google.com/go/go1.9.2.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.9.2.linux-amd64.tar.gz 
+```
+or from [[here](https://golang.org/dl/)]
 
 Edit .bash_profile
 ```
