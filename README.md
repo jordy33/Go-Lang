@@ -9,9 +9,17 @@ wget https://dl.google.com/go/go1.9.2.linux-amd64.tar.gz
 tar -C /usr/local -xzf go1.9.2.linux-amd64.tar.gz 
 ```
 or from [[here](https://golang.org/dl/)]
+Check locales
+```
+locale -a
+locale-gen en_US.UTF-8
+```
 
 Edit .bash_profile
 ```
+export LANGUAGE=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 export GOPATH=$HOME/Developer/GoglandProjects
 export PATH=$PATH:/usr/local/go/bin
 ```
