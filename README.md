@@ -6,6 +6,7 @@ Download version 1.9.2
 ```
 cd /tmp
 wget https://dl.google.com/go/go1.9.2.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.16.linux-amd64.tar.gz
 tar -C /usr/local -xzf go1.9.2.linux-amd64.tar.gz 
 ```
 or from [[here](https://golang.org/dl/)]
